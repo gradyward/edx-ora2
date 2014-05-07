@@ -24,17 +24,22 @@ Submissions
 Peer Assessment
 ***************
 
-.. automodule:: openassessment.assessment.peer_api
+.. automodule:: openassessment.assessment.api.peer
    :members:
 
 Self Assessment
 ***************
-.. automodule:: openassessment.assessment.self_api
+.. automodule:: openassessment.assessment.api.self
+   :members:
+
+Student Training
+***************
+.. automodule:: openassessment.assessment.api.student_training
    :members:
 
 Workflow Assessment
 *******************
-.. automodule:: openassessment.assessment.self_api
+.. automodule:: openassessment.workflow
    :members:
 
 
@@ -66,8 +71,18 @@ Assessment
 
 Models
 ++++++
-.. automodule:: openassessment.assessment.models
+.. automodule:: openassessment.assessment.models.base
    :members:
+
+.. automodule:: openassessment.assessment.models.peer
+   :members:
+
+.. automodule:: openassessment.assessment.models.training
+   :members:
+
+.. automodule:: openassessment.assessment.models.student_training
+   :members:
+
 
 
 Workflow
